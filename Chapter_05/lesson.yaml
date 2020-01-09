@@ -32,7 +32,7 @@
 
 - Class: cmd_question
   Output: |-
-    Nice! Let's see what the dimension of our obeject is.
+    Nice! Let's see what the dimension of our object is.
   
     Enter 'dim(v)' below to see its dimensionality.
   CorrectAnswer: "dim(v)"

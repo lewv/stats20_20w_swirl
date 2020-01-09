@@ -124,9 +124,13 @@
     Also since it is arranged in a table format, most of the functions we used for matrices, work for dataframes as well.
 
 - Class: text
-  Output: Difference between dataframe and list
+  Output: |-
+    Difference between dataframe and list
+    
     1. All the variables in a dataframe have same length, whereas lists may have variables with different lengths.
+    
     2. A dataframe always has a rowname attributes.
+    
     3. A list is a generic vector while a dataframe is not.
 
 - Class: cmd_question
@@ -169,12 +173,6 @@
   Hint: Type class(stat_data) and press enter.
 
 - Class: cmd_question
-  Output: What is the class of stat_data?
-  CorrectAnswer: class(stat_data)
-  AnswerTests: omnitest(correctExpr = 'class(stat_data)')
-  Hint: Type class(stat_data) and press enter.
-
-- Class: cmd_question
   Output: Coerce stat_data into a data.frame object and store the result in an object named stat_data2.
   CorrectAnswer: stat_data2 <- as.data.frame(stat_data)
   AnswerTests: omnitest(correctExpr = 'stat_data2 <- as.data.frame(stat_data)')
@@ -206,14 +204,14 @@
   Output: |-
     Now, data.frame objects are matrix-like object, so we can often treat them like matrices.
     
-    Treat the stat_data2 object like a matrix and calculate the average score for each student.
+    Treat the stat_data2 object like a matrix and APPLY the mean function to each student.
   CorrectAnswer: apply(stat_data2, 1, mean)
   AnswerTests: any_of_exprs('apply(stat_data2, 1, mean)')
   Hint: Apply the mean() function to each row of the data frame.
 
 - Class: cmd_question
   Output: |-
-    And now, treat the stat_data2 object like a matrix and calculate the average score in each class.
+    And now, treat the stat_data2 object like a matrix and APPLY the mean function to each class.
   CorrectAnswer: apply(stat_data2, 2, mean)
   AnswerTests: any_of_exprs('apply(stat_data2, 2, mean)')
   Hint: Apply the mean() function to each column of the data frame.

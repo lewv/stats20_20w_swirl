@@ -228,12 +228,12 @@
   AnswerTests: omnitest(correctExpr="median(heights)")
   Hint: "What function finds the median?"
 
-- Class: cmd_question
-  Output: |-
-    Use the summary function on the heights vector to, well, summarize the contents of the vector.
-  CorrectAnswer: "summary(heights)"
-  AnswerTests: omnitest(correctExpr="summary(heights)")
-  Hint: "Use summary."
+#- Class: cmd_question
+#  Output: |-
+#    Use the summary function on the heights vector to, well, summarize the contents of the vector.
+#  CorrectAnswer: "summary(heights)"
+#  AnswerTests: omnitest(correctExpr="summary(heights)")
+#  Hint: "Use summary."
 
 - Class: cmd_question
   Output: |-

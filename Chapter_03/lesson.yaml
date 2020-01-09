@@ -177,9 +177,9 @@
 # is.
 - Class: cmd_question
   Output: |-
-    Print x.
-  CorrectAnswer: "print(x)"
-  AnswerTests: omnitest(correctExpr="print(x)")
+    Display x below.
+  CorrectAnswer: "x"
+  AnswerTests: omnitest(correctExpr="x")
 
 - Class: mult_question
   Output: Is x an integer?
@@ -279,10 +279,10 @@
 
 - Class: cmd_question
   Output: |-
-    Print the vector v.
-  CorrectAnswer: "print(v)"
-  AnswerTests: omnitest(correctExpr="print(v)")
-  Hint: print(v)
+    Display the vector v below:
+  CorrectAnswer: "v"
+  AnswerTests: omnitest(correctExpr="v")
+  Hint: Type v then press enter.
 
 - Class: cmd_question
   Output: |-

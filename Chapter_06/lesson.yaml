@@ -47,7 +47,7 @@
 
 - Class: cmd_question
   Output: |-
-    Print out all the levels of group.
+    Display the levels of group.
   CorrectAnswer: 'levels(group)'
   AnswerTests: any_of_exprs('levels(group)')
   Hint: Use the levels() function.
@@ -83,7 +83,7 @@
 
 - Class: cmd_question
   Output: |-
-    Use a built-in R function to print out the number of levels of group2?
+    Use a built-in R function to display the number of levels group2 has.
   CorrectAnswer: 'nlevels(group2)'
   AnswerTests: any_of_exprs('nlevels(group2)')
   Hint: Use nlevels().
@@ -106,14 +106,14 @@
 
 - Class: cmd_question
   Output: |-
-    You have in your environment a numeric vector called exam_score, print it to the console below.
+    You have in your environment a numeric vector called exam_score, display it in the console below.
   CorrectAnswer: 'exam_score'
   AnswerTests: any_of_exprs('exam_score')
   Hint: "Just type exam_score and press enter."
 
 - Class: cmd_question
   Output: |-
-    You also have in your environment a factor called class_level, print it to the console below.
+    You also have in your environment a factor called class_level, display it in the console below.
   CorrectAnswer: 'class_level'
   AnswerTests: any_of_exprs('class_level')
   Hint: "Just type class_level and press enter."
@@ -122,7 +122,7 @@
   Output: |-
     Now, these two objects, exam_score and class_level, make up what is sometimes refered to as a "ragged array."
     
-    It is called a ragged array because, if you were to try to force it into an array-like structure (i.e. a matrix), the rows would be different lengths ssoo, instead of having a clean edge, the right hand side of this array would look torn. Hence, "ragged array."
+    It is called a ragged array because, if you were to try to force it into an array-like structure (i.e. a matrix), the rows would be different lengths so, instead of having a clean edge, the right hand side of this array would look torn. Hence, "ragged array."
 
 - Class: text
   Output: |-
