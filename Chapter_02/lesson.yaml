@@ -242,7 +242,7 @@
   AnswerTests: omnitest(correctExpr="heights[24]")
   Hint: "Put the square brackets immediately after the name of the vector with the index you want to extract inside."
 
-- Class: text_question
+- Class: text
   Output: |-
     R is a vectorized language. You can think of vectorization as doing things in parallel rather than in sequence.
     
