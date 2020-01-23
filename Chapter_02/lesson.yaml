@@ -169,8 +169,6 @@
     
     sort() which return a sorted version of the vector.
     
-    order() and rank(); which return either a vector containing the indices of the element which belongs in that position or the sample ranks of the vector values.
-
 - Class: cmd_question
   Output: |-
     Let's look at the vector 'heights' now. Type heights below and press enter.
